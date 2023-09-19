@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
+*{
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+html, body {
+    overflow-x: hidden;
+}
+
+.navbar ul{
+  list-style: none;
+  padding:30px;
+
+}
+.right-navbar{
+  background-color: white;
+}
+.navbar{
+  display:inline-flex;
+  background-color: white;
+}
+.navbar li{
+  color:#1D267D;
+  font-weight:bold;
+  display:inline-flex;
+  padding-left:50px;
+}
+.navbar img{
+  width:9%;
+  padding-left:30px;
+}
+.right-navbar{
+  margin:9px;
+  padding-top:8px;
+  display:inline-flex;
+  background-color: white;
+
+}
+.nav1{
+  display:grid;
+}
+.nav2{
+  display:inline-flex;
+  padding-top:8%;
+  background-color: white;
+
+}
+i{
+  padding-top:10px;
+  padding-left:60%;
+  color:#1D267D;
+}
+.try-for-free{
+  /* margin:25px; */
+  position:fixed;
+  padding-top:10px;
+padding-left:20%;
+border-radius: 2px ;
+cursor: pointer;
+
+}
+header{
+  position:fixed;
+  background-color: white;
+}
+header button{
+  padding:15px;
+  border-radius: 2px;
+  background-color:#2e844a;
+  color:white;
+  font-weight:bold;
+  border-color: #2e844a;
+  cursor: pointer;
+}
+header button:hover, header button:focus{
+  -webkit-animation: pulsate 1.2s linear infinite;
+  animation: pulsate 1.2s linear infinite;
+  background-color: white;
+  color:#2e844a;
+  font-weight:bold;
+}
+
+
+.dreamforce{
+  margin:7%;
+  display:inline-flex;
+  padding-left:30%;
+  padding-top:5px;
+  background-color:#1D267D;
+  color:white;
+  font-weight:bold;
+  max-width:100%;
+  margin-bottom:0;
+}
+.dreamforce a{
+  font-weight:bold;
+  padding:10px;
+}
+.dreamforce img{
+  width:18%;
+  padding-left:45px;
+  font-weight:bold;
+  padding-right:10px;
+}
+.entry1 {
+  background-image: url("https://wp.salesforce.com/en-in/wp-content/uploads/sites/21/2023/04/php-marqee-ai-data-crm-lg-bg.jpg?resize=2048,640");
+width:995%;
+height:311%;
+max-width:100%;
+height:auto;
+aspect-ratio: auto 995 / 401;
+position:absolute;
+display:flex;
+
+}
+.left1{
+  padding-left:5%;
+
+}
+.left1 h1{
+  padding-top:20%;
+  font-size:3.5rem;
+  padding-bottom:3%;
+  color:#032d60;
+  font-weight:bold;
+
+}
+.left1 p{
+  color:black;
+  font-size:1.15rem;
+  padding-bottom:7%;
+}
+.left1 button{
+  padding:3.5%;
+  width:170px;
+  margin-right:20px;
+font-weight: bold;
+cursor: pointer;
+
+
+}
+button .b1{
+  position:absolute;
+  padding-left:50%;
+
+}
+ .left1:hover,.left1:focus{
+  -webkit-animation: pulsate 1.2s linear infinite;
+  animation: pulsate 1.2s linear infinite;
+  background-color: white;
+  color:#0176d3;
+  font-weight:bold;
+}
+/* .left1 .b2:hover,.left1 .b2:focus{
+ -webkit-animation: pulsate 1.2s linear infinite;
+ animation: pulsate 1.2s linear infinite;
+ background-color: #0176d3;
+ color:white;
+ font-weight:bold;
+} */
+
+.right1{
+  /* padding-left:0%; */
+}
+.right1 img{
+width:70%;
+padding-top:10%;
+padding-left:10%;
+}
+.one h1{
+  color:#032d60;
+  font-weight:bold;
+  padding-top:700px;
+  padding-left:300px;
+  font-size:2.5em;
+}
+.box{
+  padding-top:3%;
+  display:inline-flex;
+
+
+}
+.box img{
+  width:30%;
+  /* padding-right:10px;
+  padding-left:10px; */
+  padding-bottom: 250px;
+}
+.box{
+   padding-left:50px;
+   border-color:white;
+   box-shadow:20px;
+}
+.box .blue{
+
+  border-radius:15px;
+  border-radius:15px;
+  border: 3px #00000099 solid;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 3px 3px 9px rgba(0, 0, 0, black);
+}
+.box .green {
+  border-radius:15px;
+  border: 3px #00000099 solid;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 3px 3px 9px rgba(0, 0, 0, black);
+
+}
+/* .box .orange{
+  border-radius:15px;
+  border:2px solid black;
+  width:100%;
+padding-bottom:287px;
+} */
+.box .pink{
+  border-radius:15px;
+  border-radius:15px;
+  border: 3px #00000099 solid;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 3px 3px 9px rgba(0, 0, 0, black);
+
+}
+.box .space{
+  padding-right:10px;
+  padding-left:10px;
+
+}
+.view{
+  padding:15px;
+  background-color: white;
+  border-radius:5px;
+  border-color: #0176d3;
+  color:#0176d3;
+  font-size:16px;
+  cursor: pointer;
+  font-weight:bold;
+
+}
+.view:hover, .view:focus
+{
+	-webkit-animation: pulsate 1.2s linear infinite;
+	animation: pulsate 1.2s linear infinite;
+  background-color: #0176d3;
+  color:white;
+  font-weight:bold;
+}
+ .view-button{
+padding-left:45%;
+    cursor: pointer;
+    cursor: pointer;
+
+}
